@@ -2,9 +2,8 @@
 
 ## Project Overview
 
-This project is a web-based automated apparel label validation and defect detection system developed to support quality assurance processes in apparel manufacturing environments. The system uses image processing and OCR (Optical Character Recognition) technologies to extract and validate label information against predefined client requirements.
-
-The application helps reduce manual inspection effort, improve validation accuracy, and identify mismatches, missing information, and visual defects in apparel labels.
+This project is a web-based automated apparel label validation and defect detection system developed to support quality assurance processes in apparel manufacturing environments. 
+The application helps reduce manual inspection effort, improve validation accuracy, and identify mismatches, missing information, and additional information in the Labels
 
 ---
 
@@ -87,16 +86,13 @@ OCR_API_KEY=your_api_key_here
 
 ## 6. Run the Application
 
-Start the Flask development server:
-
 ```bash
 streamlit run streamlit_app.py
 ```
 
 ## 7. Access the Application
 
-Open your browser and navigate to:
+Open your browser and navigate to the Application
 
 
-
-University of Sri Jayewardenepura
+Universit
