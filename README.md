@@ -1,4 +1,4 @@
-# Appa
+# Automated Apparel Label Digital Artwork Verification System
 
 ## Project Overview
 
