@@ -1,0 +1,102 @@
+# Appa
+
+## Project Overview
+
+This project is a web-based automated apparel label validation and defect detection system developed to support quality assurance processes in apparel manufacturing environments. The system uses image processing and OCR (Optical Character Recognition) technologies to extract and validate label information against predefined client requirements.
+
+The application helps reduce manual inspection effort, improve validation accuracy, and identify mismatches, missing information, and visual defects in apparel labels.
+
+---
+
+# System Features
+
+* Apparel label image upload
+* OCR-based text extraction
+* Client requirement validation
+* Label defect detection
+* Comparison with approved label data
+* Interactive web dashboard
+* Validation result visualization
+
+
+# Project Setup Guide
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/USERNAME/REPOSITORY.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd REPOSITORY
+```
+
+---
+
+## 2. Create Virtual Environment
+
+Create a Python virtual environment:
+
+```bash
+python -m venv venv
+```
+
+---
+
+## 3. Activate Virtual Environment
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Mac/Linux
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## 4. Install Dependencies
+
+Install all required packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 5. Configure Environment Variables
+
+Create a `.env` file in the project root directory.
+
+Example:
+
+```env
+OCR_API_KEY=your_api_key_here
+```
+
+> Note: The `.env` file should not be uploaded to GitHub.
+
+---
+
+## 6. Run the Application
+
+Start the Flask development server:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+## 7. Access the Application
+
+Open your browser and navigate to:
+
+
+
+University of Sri Jayewardenepura
