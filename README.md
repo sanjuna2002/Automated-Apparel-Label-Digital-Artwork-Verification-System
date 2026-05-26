@@ -73,15 +73,14 @@ pip install -r requirements.txt
 ## 5. Configure Environment Variables
 
 Create a `.env` file in the project root directory.
+Paste the OCR Where API key 
 
 Example:
 
 ```env
+
 OCR_API_KEY=your_api_key_here
 ```
-
-> Note: The `.env` file should not be uploaded to GitHub.
-
 ---
 
 ## 6. Run the Application
